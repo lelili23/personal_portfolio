@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Sign Up</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="signup.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body id="signup-background">
+    <main>
+        <nav>
+            <button><a  href ='index.html'>HOME</a></button>
+            <button><a href='resources.html'>RESOURCES</a> </button>
+            <button><a href='signup1.html'>GET VAXXED</a></button>
+           
+          </nav>   
+        <section class="signup">
+            <div class = "sidebar" >
+                <h1 class="pageTitle">Let's Get Vaccinated!</h1>
+                <div class = "sidebarcontent" >
+                    <div class = "zipcode" >
+                        <h3 class = "prompt">Where are you located?</h3>
+                        <input id = "userInput" class = "input" type = "text" placeholder = "Enter zipcode"></input>      
+                        <button onclick = "returnText()" class = "btn">Find me a Vax!</button>
+                        <div id= "results">
+                    
+                    </div>  
+                    <div class = "vaxType">
+                        <h3 class = "prompt">Which vax should I get?</h3>
+                        <input id = "userAge" class = "input" type = "text" placeholder = "Enter your age"></input>
+                        <button onclick = "returnAge()" class = "btn">Enter</button>
+                        <p id="age"></p>
+                    </div>
+                </div>
+            </div>    
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

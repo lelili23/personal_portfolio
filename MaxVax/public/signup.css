@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/car3.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sidebar {
+    width: calc(35% - 20px);
+    height: fit-content; 
+    background-color: rgba(255, 255, 255, 0.9);
+    float: left; 
+    border-radius: 10px; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    max-width: 75%;
+    padding: 0px 10px;
+}
+
+
+
+.sidebarcontent {
+    background-color: white; 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    margin: 5% 20px 10%; 
+    position: relative;
+}
+
+.btn {
+    display: inline-block; 
+    padding: 10px 20px;
+    margin: 10px; 
+    white-space: nowrap;
+    background-color:  rgb(75, 128, 84);
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px;
+    min-width: 150px; 
+    font-weight: bold;
+}
+
+.input{
+    display: block; 
+    width: 100%; 
+    margin-bottom: 10px; 
+    margin-top:20px;
+}
+
+.pageTitle {  
+    font-family: "Odor Mean Chey", serif;
+    color: #357ce5; 
+    font-weight: bold;
+    font-size: 45px; 
+    padding: 0px 5px;
+}
+
+.vaxType {
+    margin-top: 30px;
+}
+
+#location a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#location h3{
+    font-family: inherit;
+    font-weight:bold;
+    color: #357ce5 
+
+}
+
+#location {
+    border-radius: 5px;
+    padding: 5px;
+    transition: .7s;
+}
+
+#location:hover {
+    transform: scale(1.01);
+}
+
+.prompt {
+    font-size: 25px;
+    color:black;
+    font-family: "Odor Mean Chey", serif;
+}
