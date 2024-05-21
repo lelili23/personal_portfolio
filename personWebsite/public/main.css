@@ -1,0 +1,256 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+
+
+:root {
+    --jadeGreen:#779768;
+    --dirtyWhite:#EADEDA;
+    --grey: #f2efec;
+
+    --black:#020202;
+    --yellowWhite:#F6EDD9;
+    --brown:#826251;
+
+    --custom-embellishment-name:;
+  }
+  
+  body {       /* Can alternatively define in html {}. */
+    background-color: var(--grey);
+    background-image:;
+    color:;
+    font-family: "Adamina", serif;
+    margin: 10px 10px;
+    padding:;
+    max-width:;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    border-bottom: black 2px solid;
+    padding-bottom: 15px;
+    width: 90%;
+    margin: 0 auto; 
+
+ }
+ 
+  main {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+
+  footer {
+    border-top: black 2px solid;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: 0 auto; 
+    margin-top: 100px;
+
+  }
+  
+  a {}
+  a:link {}
+  a:hover {}
+  a:active {}
+  a:visited {}
+  
+  nav {
+    background-color: white;
+    border-radius: 30px;
+    border: black solid 3px;
+    padding: 8px 13px;
+  }
+
+  nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size:13px;
+  }
+
+  nav a:hover {
+    color: var(--jadeGreen);
+  }
+  
+  #home {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6% 0;
+  }
+
+  #left {
+    flex: 3;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    margin-right:10%;
+    margin-bottom: 15px;
+  }
+
+  #right {
+    height: fit-content;
+    flex: 1;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    background-color: #b6aeab;
+    border-radius: 30px;
+    padding: 20px;
+  }
+
+  #right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    background-color: #e3dfdde3;
+    border-radius: 30px;
+    padding: 120px 70px; 
+
+  }
+ 
+  #right p:first-child {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #right p:nth-child(2) {
+    font-size:15;
+  }
+
+  #left p {
+    margin: 0;
+    line-height: 1.5; 
+  }
+  #right p {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    line-height: 2.5; 
+  }
+  
+  #left p:first-child {
+    font-size: 60px;
+  }
+
+  #left p:nth-child(2) {
+    font-weight:bolder; 
+    font-size:110px;
+    color: var(--jadeGreen)
+  }
+
+  #left p:last-child {
+    font-size:19px;
+  }
+
+  #links {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #links img {
+    width: 50px;
+    height: 50px;
+    margin: 20px; 
+    transition: transform 0.3s; 
+  }
+
+  #links img:hover {
+    transform: scale(1.1);
+  }
+
+  #profile {
+    width:400px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  #about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+  }
+
+  #about {
+    margin: 10% 0%;
+    background-color: #e3dfdde3;
+    padding:4%;
+    padding-top: 1px;
+    border-radius: 10px;
+  }
+  
+  #info {
+    line-height: 2.5;
+    font-size: 20px;
+    max-width: 550px;
+  }
+
+  .project {
+    background-color: #779768ea;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    color: white;
+  }
+
+  #project-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:35px;
+  }
+
+  #tool {
+    background-color: #e3dfdd43;
+    padding: 3px 5px;
+    color: white;
+    font-weight: bold;
+    font-size:small;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+
+  #toolUsed {
+    margin-bottom: 20px;
+  }
+
+  #source a {
+    text-decoration: none;
+  }
+
+  #source button {
+    border-radius: 15px;
+    border:none;
+    font-family: inherit;
+    padding: 5px 10px;
+    margin-right:20px;
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  #source button:hover {
+    background-color: #020202;
+    color:white;
+  }
+
+  #project-bottom {
+    padding: 0px 40px;
+    padding-bottom: 40px;
+    display: 1;
+  }
+
+  #project-top {
+    display: 1;
+  }
+
+  #project-top img{
+    border-radius: 5px;
+    height: auto;
+    width: 100%;  
+}
